@@ -15,6 +15,8 @@ class Address(Base):
 
     @hybrid_method
     def distance_in_meters(self, latitude, longitude):
+
+        # Used geopy library to calculate distance between two pair of coordinates
         return distance.distance(
             (self.latitude, self.longitude), (latitude, longitude)
         ).m
