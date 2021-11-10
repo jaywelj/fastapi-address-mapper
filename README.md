@@ -11,7 +11,7 @@ Python 3.9
 ### Downlaod/Clone Repository
 
 ```bash
-Python 3.9
+git clone git@github.com:jaywelj/fastapi-address-mapper.git
 ```
 
 ### Install Required Python Modules
